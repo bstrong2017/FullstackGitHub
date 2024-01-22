@@ -1,15 +1,23 @@
-tbody {
+body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
-tr {
+.Calendar {
+  margin: 20px auto; /* Add margin for spacing and centering */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
   width: 120px;
-  padding-top:25px;
-  padding-bottom:30px;
+  padding: 25px 5px; /* Adjust padding for better spacing */
+  text-align: center; /* Center the text in th */
 }
 
 td {
@@ -18,4 +26,5 @@ td {
 
 .time {
   height: 40px;
+  text-align: center; /* Center the text in time cells */
 }
